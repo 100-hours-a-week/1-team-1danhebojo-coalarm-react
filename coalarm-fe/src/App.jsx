@@ -1,7 +1,7 @@
 import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Login } from "./screens/Login/Login";
-// import { Slack } from "./screens/Slack";
+import { Discord } from "./screens/Discord/Discord";
 
 const router = createBrowserRouter([
   {
@@ -12,10 +12,10 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login />,
   },
-  // {
-  //   path: "/slack",
-  //   element: <Slack />,
-  // },
+  {
+    path: "/discord",
+    element: <Discord />,
+  },
 ]);
 
 export const App = () => {
