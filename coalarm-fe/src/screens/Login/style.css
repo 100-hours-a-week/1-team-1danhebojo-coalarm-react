@@ -1,0 +1,296 @@
+.LOGIN {
+    background-color: #0e106c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .LOGIN .overlap-wrapper-2 {
+    background-color: #0e106c;
+    height: 1080px;
+    overflow: hidden;
+    width: 1920px;
+  }
+  
+  .LOGIN .overlap-3 {
+    height: 1412px;
+    left: -203px;
+    position: relative;
+    top: -166px;
+    width: 2123px;
+  }
+  
+  .LOGIN .BG-color-2 {
+    height: 1412px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1986px;
+  }
+  
+  .LOGIN .overlap-4 {
+    height: 938px;
+    left: 0;
+    position: absolute;
+    top: 474px;
+    width: 761px;
+  }
+  
+  .LOGIN .ellipse-5 {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 214.98, 123.89, 0.3) 0%,
+      rgba(255, 215, 124, 0.06) 100%
+    );
+    border-radius: 336.5px / 291px;
+    height: 582px;
+    left: 88px;
+    position: absolute;
+    top: 356px;
+    width: 673px;
+  }
+  
+  .LOGIN .ellipse-6 {
+    background: linear-gradient(
+      180deg,
+      rgba(54, 197, 240, 0.2) 0%,
+      rgba(31.05, 113.27, 138, 0.2) 100%
+    );
+    border-radius: 246.5px / 232px;
+    height: 464px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 493px;
+  }
+  
+  .LOGIN .overlap-group-3 {
+    height: 1246px;
+    left: 892px;
+    position: absolute;
+    top: 0;
+    width: 1094px;
+  }
+  
+  .LOGIN .vector-3 {
+    height: 1080px;
+    left: 65px;
+    position: absolute;
+    top: 166px;
+    width: 1030px;
+  }
+  
+  .LOGIN .ellipse-7 {
+    background-color: #e01e5a66;
+    border-radius: 230px / 189.5px;
+    height: 379px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 460px;
+  }
+  
+  .LOGIN .BG-design {
+    -webkit-backdrop-filter: blur(300px) brightness(100%);
+    backdrop-filter: blur(300px) brightness(100%);
+    background-color: #ffffff05;
+    height: 1080px;
+    left: 203px;
+    overflow: hidden;
+    position: absolute;
+    top: 166px;
+    width: 1920px;
+  }
+  
+  .LOGIN .group-6 {
+    height: 1403px;
+    left: 735px;
+    position: relative;
+    top: -121px;
+    width: 1262px;
+  }
+  
+  .LOGIN .overlap-5 {
+    height: 1080px;
+    position: relative;
+    top: 121px;
+    width: 1185px;
+  }
+  
+  .LOGIN .overlap-group-4 {
+    height: 1080px;
+    left: 256px;
+    position: absolute;
+    top: 0;
+    width: 929px;
+  }
+  
+  .LOGIN .gold-coins {
+    height: 468px;
+    left: 0;
+    mix-blend-mode: color-dodge;
+    position: absolute;
+    top: 0;
+    width: 512px;
+  }
+  
+  .LOGIN .group-7 {
+    height: 1080px;
+    left: 468px;
+    position: absolute;
+    top: 0;
+    width: 419px;
+  }
+  
+  .LOGIN .bitcoin {
+    height: 512px;
+    left: 381px;
+    position: absolute;
+    top: 312px;
+    width: 512px;
+  }
+  
+  .LOGIN .bitcoin-2 {
+    height: 322px;
+    left: 684px;
+    position: absolute;
+    top: 102px;
+    width: 245px;
+  }
+  
+  .LOGIN .gold-coins-2 {
+    height: 310px;
+    left: 0;
+    mix-blend-mode: color-dodge;
+    position: absolute;
+    top: 770px;
+    width: 512px;
+  }
+  
+  .LOGIN .view {
+    -webkit-backdrop-filter: blur(150px) brightness(100%);
+    backdrop-filter: blur(150px) brightness(100%);
+    background-color: #ffffff1a;
+    border-color: transparent;
+    border-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0)
+      )
+      1;
+    border-right-style: solid;
+    border-right-width: 2px;
+    height: 1080px;
+    left: 203px;
+    position: absolute;
+    top: 166px;
+    width: 808px;
+  }
+  
+  .LOGIN .overlap-6 {
+    height: 903px;
+    left: 122px;
+    position: relative;
+    width: 518px;
+  }
+  
+  .LOGIN .btn {
+    all: unset;
+    align-items: center;
+    background-color: #fae64d;
+    border-radius: 1000px;
+    box-sizing: border-box;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 2px;
+    padding: 16px 160px;
+    position: absolute;
+    top: 832px;
+  }
+
+  .LOGIN .btn:hover {
+    cursor: pointer;
+  }
+  
+  .LOGIN .text-wrapper-8 {
+    color: #191919;
+    font-family: "Inter", Helvetica;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: -0.29px;
+    line-height: 39px;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+
+  .LOGIN .text-wrapper-9 {
+    color: var(--grayscale-30);
+    font-family: var(--medium-18-font-family);
+    font-size: var(--medium-18-font-size);
+    font-style: var(--medium-18-font-style);
+    font-weight: var(--medium-18-font-weight);
+    left: 2px;
+    letter-spacing: var(--medium-18-letter-spacing);
+    line-height: var(--medium-18-line-height);
+    position: absolute;
+    top: 783px;
+    white-space: nowrap;
+  }
+  
+  .LOGIN .text-wrapper-10 {
+    color: var(--grayscale-5);
+    font-family: var(--medium-22-font-family);
+    font-size: var(--medium-22-font-size);
+    font-style: var(--medium-22-font-style);
+    font-weight: var(--medium-22-font-weight);
+    left: 2px;
+    letter-spacing: var(--medium-22-letter-spacing);
+    line-height: var(--medium-22-line-height);
+    position: absolute;
+    top: 281px;
+    white-space: nowrap;
+  }
+  
+  .LOGIN .text-wrapper-11 {
+    color: var(--grayscale-5);
+    font-family: "Inter", Helvetica;
+    font-size: 80px;
+    font-weight: 800;
+    left: 2px;
+    letter-spacing: -0.88px;
+    line-height: 120px;
+    position: absolute;
+    top: 314px;
+    white-space: nowrap;
+  }
+  
+  .LOGIN .vector-4 {
+    height: 876px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 3px;
+  }
+  
+  .LOGIN .logo-wrapper {
+    height: 100px;
+    left: 203px;
+    position: absolute;
+    top: 166px;
+    width: 1920px;
+  }
+  
+  .LOGIN .logo-3 {
+    height: 19px;
+    left: 63px;
+    object-fit: cover;
+    position: absolute;
+    top: 40px;
+    width: 100px;
+  }
+  
