@@ -1,0 +1,1 @@
+export { SolidAngleDoubleDown } from "./SolidAngleDoubleDown";

@@ -1,0 +1,129 @@
+.component-1614 {
+  align-items: center;
+  background-color: var(--foundation-bluedarker);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 180px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  width: 320px;
+}
+
+.component-1614 .group-11 {
+  height: 24px;
+  position: relative;
+  width: 279.5px;
+}
+
+.component-1614 .frame-16 {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+}
+
+.component-1614 .text-wrapper-26 {
+  color: #ffffff;
+  font-family: var(--bold-10-font-family);
+  font-size: var(--bold-10-font-size);
+  font-style: var(--bold-10-font-style);
+  font-weight: var(--bold-10-font-weight);
+  letter-spacing: var(--bold-10-letter-spacing);
+  line-height: var(--bold-10-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.component-1614 .main-icon-6 {
+  background-image: url(../../../static/img/user-interface-help.svg) !important;
+  left: 256px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.component-1614 .frame-17 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.component-1614 .div-6 {
+  font-family: var(--bold-24-font-family);
+  font-size: var(--bold-24-font-size);
+  font-style: var(--bold-24-font-style);
+  font-weight: var(--bold-24-font-weight);
+  letter-spacing: var(--bold-24-letter-spacing);
+  line-height: var(--bold-24-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.component-1614 .element-6 {
+  font-family: var(--semi-bold-18-font-family);
+  font-size: var(--semi-bold-18-font-size);
+  font-style: var(--semi-bold-18-font-style);
+  font-weight: var(--semi-bold-18-font-weight);
+  letter-spacing: var(--semi-bold-18-letter-spacing);
+  line-height: var(--semi-bold-18-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.component-1614 .frame-18 {
+  height: 12px;
+  position: relative;
+  width: 240px;
+}
+
+.component-1614 .property-1-5-variant-4 {
+  color: #ffffff99;
+}
+
+.component-1614 .property-1-5-variant-2 {
+  color: #ffffff4c;
+}
+
+.component-1614 .property-1-5-variant-5 {
+  color: var(--green);
+}
+
+.component-1614 .property-1-5-variant-3 {
+  color: var(--grayscale-0);
+}
+
+.component-1614 .property-1-5-one {
+  color: var(--red);
+}
+
+.component-1614 .property-1-6-variant-4 {
+  color: #ffffff99;
+}
+
+.component-1614 .property-1-6-variant-2 {
+  color: #ffffff4c;
+}
+
+.component-1614 .property-1-6-variant-5 {
+  color: var(--green);
+}
+
+.component-1614 .property-1-6-variant-3 {
+  color: var(--grayscale-0);
+}
+
+.component-1614 .property-1-6-one {
+  color: var(--red);
+}

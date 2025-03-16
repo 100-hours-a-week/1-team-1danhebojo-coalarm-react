@@ -1,0 +1,1 @@
+export { UserInterfaceMagnifier } from "./UserInterfaceMagnifier";
