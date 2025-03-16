@@ -1,0 +1,1 @@
+export { SolidAngleDoubleUp } from "./SolidAngleDoubleUp";

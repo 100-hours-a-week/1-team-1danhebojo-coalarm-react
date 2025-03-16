@@ -1,0 +1,27 @@
+.frame {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  position: relative;
+}
+
+.frame .img-2 {
+  height: 14px;
+  object-fit: cover;
+  position: relative;
+  width: 14px;
+}
+
+.frame .BTC {
+  color: var(--grayscale-5);
+  font-family: var(--medium-10-font-family);
+  font-size: var(--medium-10-font-size);
+  font-style: var(--medium-10-font-style);
+  font-weight: var(--medium-10-font-weight);
+  letter-spacing: var(--medium-10-letter-spacing);
+  line-height: var(--medium-10-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
