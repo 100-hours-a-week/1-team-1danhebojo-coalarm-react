@@ -1,0 +1,1 @@
+export { MypageSlacko } from "./MypageSlacko";

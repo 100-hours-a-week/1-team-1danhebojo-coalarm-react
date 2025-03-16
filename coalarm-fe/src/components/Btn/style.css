@@ -1,0 +1,45 @@
+.btn {
+  all: unset;
+  align-items: center;
+  border-radius: 100px;
+  box-shadow: 0px 4px 8px #0000001a;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 12px 60px;
+  position: relative;
+}
+
+.btn .TEXT {
+  color: var(--grayscale-5);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.btn.sub {
+  background-color: var(--foundation-bluedark-hover);
+}
+
+.btn.main {
+  background-color: var(--foundation-bluenormal);
+}
+
+.btn.sub .TEXT {
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.18px;
+  line-height: 24px;
+}
+
+.btn.main .TEXT {
+  font-family: var(--semi-bold-16-font-family);
+  font-size: var(--semi-bold-16-font-size);
+  font-style: var(--semi-bold-16-font-style);
+  font-weight: var(--semi-bold-16-font-weight);
+  letter-spacing: var(--semi-bold-16-letter-spacing);
+  line-height: var(--semi-bold-16-line-height);
+}
