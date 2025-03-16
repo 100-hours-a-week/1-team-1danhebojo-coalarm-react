@@ -1,0 +1,1 @@
+export { UserInterfaceMediumVolume } from "./UserInterfaceMediumVolume";

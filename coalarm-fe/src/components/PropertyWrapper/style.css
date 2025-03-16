@@ -1,0 +1,173 @@
+.property-wrapper {
+  border-radius: 10px;
+  height: 78px;
+  overflow: hidden;
+  position: relative;
+}
+
+.property-wrapper .rectangle {
+  height: 78px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+.property-wrapper .element {
+  color: #ffffff;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.property-wrapper .div {
+  position: absolute;
+  white-space: nowrap;
+}
+
+.property-wrapper .BTC-KRW {
+  position: absolute;
+}
+
+.property-wrapper .img {
+  height: 22px;
+  object-fit: cover;
+  position: relative;
+  width: 22px;
+}
+
+.property-wrapper .text-wrapper {
+  color: #ffffff;
+  font-family: var(--medium-18-font-family);
+  font-size: var(--medium-18-font-size);
+  font-style: var(--medium-18-font-style);
+  font-weight: var(--medium-18-font-weight);
+  letter-spacing: var(--medium-18-letter-spacing);
+  line-height: var(--medium-18-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-wrapper.one {
+  background-color: #4c529d;
+  width: 266px;
+}
+
+.property-wrapper.three {
+  background-color: #533676;
+  width: 388px;
+}
+
+.property-wrapper.two {
+  background-color: #264d82;
+  width: 388px;
+}
+
+.property-wrapper.one .rectangle {
+  background-color: #b7bfff;
+}
+
+.property-wrapper.three .rectangle {
+  background-color: #ef4444;
+}
+
+.property-wrapper.two .rectangle {
+  background-color: #10b981;
+}
+
+.property-wrapper.one .element {
+  font-family: var(--medium-22-font-family);
+  font-size: var(--medium-22-font-size);
+  font-style: var(--medium-22-font-style);
+  font-weight: var(--medium-22-font-weight);
+  left: 115px;
+  letter-spacing: var(--medium-22-letter-spacing);
+  line-height: var(--medium-22-line-height);
+  top: 22px;
+}
+
+.property-wrapper.three .element {
+  font-family: var(--medium-14-font-family);
+  font-size: var(--medium-14-font-size);
+  font-style: var(--medium-14-font-style);
+  font-weight: var(--medium-14-font-weight);
+  left: 239px;
+  letter-spacing: var(--medium-14-letter-spacing);
+  line-height: var(--medium-14-line-height);
+  top: 15px;
+}
+
+.property-wrapper.two .element {
+  font-family: var(--medium-14-font-family);
+  font-size: var(--medium-14-font-size);
+  font-style: var(--medium-14-font-style);
+  font-weight: var(--medium-14-font-weight);
+  left: 239px;
+  letter-spacing: var(--medium-14-letter-spacing);
+  line-height: var(--medium-14-line-height);
+  top: 15px;
+}
+
+.property-wrapper.one .div {
+  color: #ffffff;
+  font-family: var(--medium-14-font-family);
+  font-size: var(--medium-14-font-size);
+  font-style: var(--medium-14-font-style);
+  font-weight: var(--medium-14-font-weight);
+  left: 24px;
+  letter-spacing: var(--medium-14-letter-spacing);
+  line-height: var(--medium-14-line-height);
+  top: 13px;
+}
+
+.property-wrapper.three .div {
+  color: var(--grayscale-40);
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 339px;
+  letter-spacing: -0.13px;
+  line-height: 18px;
+  top: 43px;
+}
+
+.property-wrapper.two .div {
+  color: var(--grayscale-40);
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 339px;
+  letter-spacing: -0.13px;
+  line-height: 18px;
+  top: 43px;
+}
+
+.property-wrapper.one .BTC-KRW {
+  color: #ffffff;
+  font-family: var(--medium-14-font-family);
+  font-size: var(--medium-14-font-size);
+  font-style: var(--medium-14-font-style);
+  font-weight: var(--medium-14-font-weight);
+  left: 25px;
+  letter-spacing: var(--medium-14-letter-spacing);
+  line-height: var(--medium-14-line-height);
+  top: 42px;
+  white-space: nowrap;
+}
+
+.property-wrapper.three .BTC-KRW {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  left: 21px;
+  top: 16px;
+}
+
+.property-wrapper.two .BTC-KRW {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  left: 21px;
+  top: 16px;
+}

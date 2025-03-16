@@ -1,0 +1,101 @@
+.component-1611 {
+  align-items: center;
+  background-color: var(--foundation-bluedarker);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  height: 180px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  width: 320px;
+}
+
+.component-1611 .group-3 {
+  height: 24px;
+  position: relative;
+  width: 280px;
+}
+
+.component-1611 .frame-8 {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+}
+
+.component-1611 .text-wrapper-15 {
+  color: #ffffff;
+  font-family: var(--bold-10-font-family);
+  font-size: var(--bold-10-font-size);
+  font-style: var(--bold-10-font-style);
+  font-weight: var(--bold-10-font-weight);
+  letter-spacing: var(--bold-10-letter-spacing);
+  line-height: var(--bold-10-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.component-1611 .main-icon-3 {
+  left: 256px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.component-1611 .frame-9 {
+  background-color: var(--foundation-bluedarker);
+  border-radius: 50px;
+  height: 24px;
+  overflow: hidden;
+  position: relative;
+  width: 270px;
+}
+
+.component-1611 .frame-10 {
+  background-color: var(--foundation-bluenormal);
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 186px;
+}
+
+.component-1611 .text-wrapper-16 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 10px;
+  font-weight: 700;
+  left: 15px;
+  letter-spacing: -0.11px;
+  line-height: 15px;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+}
+
+.component-1611 .frame-11 {
+  background-color: #ff8a0d;
+  height: 24px;
+  left: 186px;
+  position: absolute;
+  top: 0;
+  width: 84px;
+}
+
+.component-1611 .text-wrapper-17 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 10px;
+  font-weight: 700;
+  left: 6px;
+  letter-spacing: -0.11px;
+  line-height: 15px;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+}

@@ -1,0 +1,165 @@
+.component-1609 {
+  align-items: center;
+  background-color: var(--foundation-bluedarker);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  width: 432px;
+}
+
+.component-1609 .div-2 {
+  height: 24px;
+  position: relative;
+  width: 391.5px;
+}
+
+.component-1609 .frame-7 {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+}
+
+.component-1609 .text-wrapper-8 {
+  color: var(--grayscale-0);
+  font-family: var(--bold-10-font-family);
+  font-size: var(--bold-10-font-size);
+  font-style: var(--bold-10-font-style);
+  font-weight: var(--bold-10-font-weight);
+  letter-spacing: var(--bold-10-letter-spacing);
+  line-height: var(--bold-10-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.component-1609 .main-icon-2 {
+  background-image: url(../../../static/img/user-interface-help.svg) !important;
+  left: 368px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.component-1609 .div-3 {
+  align-self: stretch;
+  height: 419px;
+  position: relative;
+  width: 100%;
+}
+
+.component-1609 .component-1607-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.component-1609 .element-2 {
+  height: 32px;
+  left: 0;
+  position: absolute;
+  top: 32px;
+  width: 388px;
+}
+
+.component-1609 .frame-36448 {
+  left: 12px !important;
+  position: absolute !important;
+  top: 9px !important;
+}
+
+.component-1609 .KRW {
+  align-items: center;
+  display: inline-flex;
+  gap: 2px;
+  justify-content: flex-end;
+  left: 80px;
+  position: absolute;
+  top: 9px;
+}
+
+.component-1609 .text-wrapper-9 {
+  color: var(--grayscale-5);
+  font-family: var(--medium-10-font-family);
+  font-size: var(--medium-10-font-size);
+  font-style: var(--medium-10-font-style);
+  font-weight: var(--medium-10-font-weight);
+  letter-spacing: var(--medium-10-letter-spacing);
+  line-height: var(--medium-10-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.component-1609 .text-wrapper-10 {
+  color: var(--grayscale-40);
+  font-family: "Inter", Helvetica;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: -0.09px;
+  line-height: 12px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.component-1609 .USDT {
+  align-items: center;
+  display: inline-flex;
+  gap: 2px;
+  justify-content: flex-end;
+  left: 190px;
+  position: absolute;
+  top: 9px;
+}
+
+.component-1609 .text-wrapper-11 {
+  color: #10b981;
+  font-family: var(--medium-10-font-family);
+  font-size: var(--medium-10-font-size);
+  font-style: var(--medium-10-font-style);
+  font-weight: var(--medium-10-font-weight);
+  left: 300px;
+  letter-spacing: var(--medium-10-letter-spacing);
+  line-height: var(--medium-10-line-height);
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.component-1609 .element-3 {
+  height: 32px;
+  left: 0;
+  position: absolute;
+  top: 64px;
+  width: 388px;
+}
+
+.component-1609 .element-4 {
+  height: 32px;
+  left: 0;
+  position: absolute;
+  top: 96px;
+  width: 388px;
+}
+
+.component-1609 .text-wrapper-12 {
+  color: #ef4444;
+  font-family: var(--medium-10-font-family);
+  font-size: var(--medium-10-font-size);
+  font-style: var(--medium-10-font-style);
+  font-weight: var(--medium-10-font-weight);
+  left: 300px;
+  letter-spacing: var(--medium-10-letter-spacing);
+  line-height: var(--medium-10-line-height);
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+}

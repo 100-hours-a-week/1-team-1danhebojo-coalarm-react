@@ -1,0 +1,81 @@
+.component-1606 {
+  align-items: center;
+  background-color: var(--foundation-bluedarker);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 514px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  width: 432px;
+}
+
+.component-1606 .group-2 {
+  height: 24px;
+  position: relative;
+  width: 391.5px;
+}
+
+.component-1606 .frame-4 {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+}
+
+.component-1606 .text-wrapper-3 {
+  color: #ffffff;
+  font-family: var(--bold-10-font-family);
+  font-size: var(--bold-10-font-size);
+  font-style: var(--bold-10-font-style);
+  font-weight: var(--bold-10-font-weight);
+  letter-spacing: var(--bold-10-letter-spacing);
+  line-height: var(--bold-10-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.component-1606 .main-icon-instance {
+  background-image: url(../../../static/img/user-interface-help.svg) !important;
+  left: 368px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.component-1606 .frame-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.component-1606 .component-1604-2 {
+  align-self: stretch !important;
+  width: 100% !important;
+}
+
+.component-1606 .component-1604-3 {
+  background-color: var(--green) !important;
+}
+
+.component-1606 .component-1604-4 {
+  left: 241px !important;
+}
+
+.component-1606 .component-1604-5 {
+  left: 341px !important;
+}
+
+.component-1606 .component-1604-6 {
+  background-color: var(--red) !important;
+}

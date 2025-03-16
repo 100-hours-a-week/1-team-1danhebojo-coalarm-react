@@ -1,0 +1,113 @@
+.RSI {
+  align-items: center;
+  background-color: var(--foundation-bluedarker);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 180px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  width: 320px;
+}
+
+.RSI .group-10 {
+  height: 24px;
+  position: relative;
+  width: 279.5px;
+}
+
+.RSI .frame-13 {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+}
+
+.RSI .text-wrapper-25 {
+  color: #ffffff;
+  font-family: var(--bold-10-font-family);
+  font-size: var(--bold-10-font-size);
+  font-style: var(--bold-10-font-style);
+  font-weight: var(--bold-10-font-weight);
+  letter-spacing: var(--bold-10-letter-spacing);
+  line-height: var(--bold-10-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.RSI .main-icon-5 {
+  background-image: url(../../../static/img/user-interface-help.svg) !important;
+  left: 256px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.RSI .frame-14 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.RSI .div-5 {
+  font-family: var(--bold-24-font-family);
+  font-size: var(--bold-24-font-size);
+  font-style: var(--bold-24-font-style);
+  font-weight: var(--bold-24-font-weight);
+  letter-spacing: var(--bold-24-letter-spacing);
+  line-height: var(--bold-24-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.RSI .element-5 {
+  font-family: var(--semi-bold-18-font-family);
+  font-size: var(--semi-bold-18-font-size);
+  font-style: var(--semi-bold-18-font-style);
+  font-weight: var(--semi-bold-18-font-weight);
+  letter-spacing: var(--semi-bold-18-letter-spacing);
+  line-height: var(--semi-bold-18-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.RSI .frame-15 {
+  height: 12px;
+  position: relative;
+  width: 240px;
+}
+
+.RSI .property-1-3-one {
+  color: var(--red);
+}
+
+.RSI .property-1-3-variant-3 {
+  color: var(--green);
+}
+
+.RSI .property-1-3-variant-2 {
+  color: var(--grayscale-0);
+}
+
+.RSI .property-1-4-one {
+  color: var(--red);
+}
+
+.RSI .property-1-4-variant-3 {
+  color: var(--green);
+}
+
+.RSI .property-1-4-variant-2 {
+  color: var(--grayscale-0);
+}
