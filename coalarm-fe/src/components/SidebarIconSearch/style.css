@@ -1,0 +1,13 @@
+.sidebar-icon-search {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.sidebar-icon-search .user-interface {
+  height: 22px !important;
+  left: 1px !important;
+  position: absolute !important;
+  top: 1px !important;
+  width: 22px !important;
+}

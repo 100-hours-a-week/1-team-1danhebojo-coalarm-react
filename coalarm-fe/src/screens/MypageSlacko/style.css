@@ -1,0 +1,798 @@
+.mypage-slacko {
+  background-color: #0e106c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.mypage-slacko .div {
+  background-color: #0e106c;
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 1920px;
+}
+
+.mypage-slacko .div:hover {
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+  transform: translate(0, -5px);
+}
+
+.mypage-slacko .overlap {
+  height: 1425px;
+  left: -225px;
+  position: absolute;
+  top: -173px;
+  width: 2145px;
+}
+
+.mypage-slacko .BG-color {
+  height: 1412px;
+  left: 0;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  width: 1986px;
+}
+
+.mypage-slacko .overlap-group {
+  height: 938px;
+  left: 0;
+  position: absolute;
+  top: 474px;
+  width: 761px;
+}
+
+.mypage-slacko .ellipse {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 214.98, 123.89, 0.3) 0%,
+    rgba(255, 215, 124, 0.06) 100%
+  );
+  border-radius: 336.5px / 291px;
+  height: 582px;
+  left: 88px;
+  position: absolute;
+  top: 356px;
+  width: 673px;
+}
+
+.mypage-slacko .ellipse-2 {
+  background: linear-gradient(
+    180deg,
+    rgba(54, 197, 240, 0.2) 0%,
+    rgba(31.05, 113.27, 138, 0.2) 100%
+  );
+  border-radius: 246.5px / 232px;
+  height: 464px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 493px;
+}
+
+.mypage-slacko .overlap-group-2 {
+  height: 1253px;
+  left: 892px;
+  position: absolute;
+  top: 0;
+  width: 1094px;
+}
+
+.mypage-slacko .vector {
+  height: 1080px;
+  left: 65px;
+  position: absolute;
+  top: 173px;
+  width: 1030px;
+}
+
+.mypage-slacko .ellipse-3 {
+  background-color: #e01e5a66;
+  border-radius: 230px / 189.5px;
+  height: 379px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 460px;
+}
+
+.mypage-slacko .BG-blur {
+  -webkit-backdrop-filter: blur(300px) brightness(100%);
+  backdrop-filter: blur(300px) brightness(100%);
+  background-color: #ffffff05;
+  height: 1252px;
+  left: 225px;
+  position: absolute;
+  top: 173px;
+  width: 1920px;
+}
+
+.mypage-slacko .scroll {
+  height: 995px;
+  left: 526px;
+  overflow: hidden;
+  position: absolute;
+  top: 258px;
+  width: 1619px;
+}
+
+.mypage-slacko .content {
+  height: 1077px;
+  left: 349px;
+  position: relative;
+  top: 45px;
+  width: 922px;
+}
+
+.mypage-slacko .div-wrapper {
+  all: unset;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  border-color: var(--grayscale-40);
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 420px;
+  position: absolute;
+  top: 1056px;
+}
+
+.mypage-slacko .text-wrapper-2 {
+  color: var(--grayscale-40);
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.15px;
+  line-height: 21px;
+  margin-top: -0.50px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.mypage-slacko .content-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 0;
+  position: absolute;
+  top: 376px;
+  width: 922px;
+}
+
+.mypage-slacko .view {
+  align-self: stretch;
+  background-color: var(--foundation-bluedarker);
+  border-radius: 30px;
+  height: 276px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.mypage-slacko .view-2 {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  left: 30px;
+  position: absolute;
+  top: 23px;
+}
+
+.mypage-slacko .sidebar-icon-instance {
+  background-image: url(../../../static/img/user-interface-medium-volume-2.svg) !important;
+  position: relative !important;
+}
+
+.mypage-slacko .text-wrapper-3 {
+  color: var(--grayscale-5);
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.20px;
+  line-height: 27px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.mypage-slacko .view-3 {
+  height: 160px;
+  left: 64px;
+  position: absolute;
+  top: 66px;
+  width: 794px;
+}
+
+.mypage-slacko .view-4 {
+  background-color: #2b347a;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #b7bfff;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 794px;
+}
+
+.mypage-slacko .group {
+  height: 18px;
+  left: 34px;
+  position: relative;
+  top: 11px;
+  width: 630px;
+}
+
+.mypage-slacko .text-wrapper-4 {
+  color: var(--grayscale-5);
+  font-family: var(--medium-12-font-family);
+  font-size: var(--medium-12-font-size);
+  font-style: var(--medium-12-font-style);
+  font-weight: var(--medium-12-font-weight);
+  left: 0;
+  letter-spacing: var(--medium-12-letter-spacing);
+  line-height: var(--medium-12-line-height);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.mypage-slacko .text-wrapper-5 {
+  color: var(--grayscale-5);
+  font-family: var(--medium-12-font-family);
+  font-size: var(--medium-12-font-size);
+  font-style: var(--medium-12-font-style);
+  font-weight: var(--medium-12-font-weight);
+  left: 58px;
+  letter-spacing: var(--medium-12-letter-spacing);
+  line-height: var(--medium-12-line-height);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.mypage-slacko .text-wrapper-6 {
+  color: var(--grayscale-5);
+  font-family: var(--medium-12-font-family);
+  font-size: var(--medium-12-font-size);
+  font-style: var(--medium-12-font-style);
+  font-weight: var(--medium-12-font-weight);
+  left: 602px;
+  letter-spacing: var(--medium-12-letter-spacing);
+  line-height: var(--medium-12-line-height);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.mypage-slacko .element {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #b7bfff4c;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 40px;
+  width: 794px;
+}
+
+.mypage-slacko .view-5 {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  left: 34px;
+  position: absolute;
+  top: 10px;
+}
+
+.mypage-slacko .text-wrapper-7 {
+  color: var(--grayscale-5);
+  font-family: var(--medium-14-font-family);
+  font-size: var(--medium-14-font-size);
+  font-style: var(--medium-14-font-style);
+  font-weight: var(--medium-14-font-weight);
+  letter-spacing: var(--medium-14-letter-spacing);
+  line-height: var(--medium-14-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.mypage-slacko .KRW {
+  align-items: center;
+  display: inline-flex;
+  gap: 2px;
+  justify-content: flex-end;
+  left: 92px;
+  position: absolute;
+  top: 10px;
+}
+
+.mypage-slacko .USDT {
+  align-items: center;
+  display: inline-flex;
+  gap: 2px;
+  justify-content: flex-end;
+  left: 636px;
+  position: absolute;
+  top: 10px;
+}
+
+.mypage-slacko .text-wrapper-8 {
+  color: var(--grayscale-5);
+  font-family: var(--medium-14-font-family);
+  font-size: var(--medium-14-font-size);
+  font-style: var(--medium-14-font-style);
+  font-weight: var(--medium-14-font-weight);
+  letter-spacing: var(--medium-14-letter-spacing);
+  line-height: var(--medium-14-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  width: 141px;
+}
+
+.mypage-slacko .element-2 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #b7bfff4c;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 80px;
+  width: 794px;
+}
+
+.mypage-slacko .element-3 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #b7bfff4c;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 120px;
+  width: 794px;
+}
+
+.mypage-slacko .group-2 {
+  height: 16px;
+  left: 405px;
+  position: absolute;
+  top: 242px;
+  width: 112px;
+}
+
+.mypage-slacko .arrows-right-arrow {
+  height: 16px !important;
+  left: 96px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 16px !important;
+}
+
+.mypage-slacko .arrows-right-arrow-2 {
+  height: 16px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 16px !important;
+}
+
+.mypage-slacko .frame {
+  border-radius: 100px;
+  height: 16px;
+  left: 24px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.mypage-slacko .text-wrapper-9 {
+  color: var(--grayscale-5);
+  font-family: var(--medium-12-font-family);
+  font-size: var(--medium-12-font-size);
+  font-style: var(--medium-12-font-style);
+  font-weight: var(--medium-12-font-weight);
+  left: 5px;
+  letter-spacing: var(--medium-12-letter-spacing);
+  line-height: var(--medium-12-line-height);
+  position: absolute;
+  top: -2px;
+  white-space: nowrap;
+}
+
+.mypage-slacko .frame-2 {
+  border-radius: 100px;
+  height: 16px;
+  left: 48px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.mypage-slacko .text-wrapper-10 {
+  color: var(--grayscale-5);
+  font-family: var(--medium-12-font-family);
+  font-size: var(--medium-12-font-size);
+  font-style: var(--medium-12-font-style);
+  font-weight: var(--medium-12-font-weight);
+  left: 4px;
+  letter-spacing: var(--medium-12-letter-spacing);
+  line-height: var(--medium-12-line-height);
+  position: absolute;
+  top: -2px;
+  white-space: nowrap;
+}
+
+.mypage-slacko .frame-3 {
+  background-color: var(--foundation-bluenormal);
+  border-radius: 100px;
+  height: 16px;
+  left: 72px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.mypage-slacko .view-6 {
+  align-self: stretch;
+  background-color: var(--foundation-bluedarker);
+  border-radius: 30px;
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.mypage-slacko .element-4 {
+  align-items: center;
+  background-color: #ffffff1a;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 30px;
+  left: 64px;
+  padding: 20px;
+  position: absolute;
+  top: 65px;
+  width: 794px;
+}
+
+.mypage-slacko .image {
+  height: 80px;
+  position: relative;
+  width: 80px;
+}
+
+.mypage-slacko .frame-4 {
+  align-items: center;
+  display: flex;
+  gap: 300px;
+  position: relative;
+  width: 493px;
+}
+
+.mypage-slacko .frame-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 340px;
+  position: relative;
+}
+
+.mypage-slacko .frame-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 153px;
+}
+
+.mypage-slacko .text-wrapper-11 {
+  color: var(--x-1);
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.44px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.mypage-slacko .frame-6 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 18px;
+  position: relative;
+  width: 100%;
+}
+
+.mypage-slacko .frame-7 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 3px;
+  position: relative;
+}
+
+.mypage-slacko .pngwing-com {
+  height: 20px;
+  object-fit: cover;
+  position: relative;
+  width: 20px;
+}
+
+.mypage-slacko .text-wrapper-12 {
+  color: #bebbbd;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.33px;
+  line-height: 22.5px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.mypage-slacko .btn-instance {
+  flex: 0 0 auto !important;
+  gap: 300px !important;
+  margin-right: -139.00px !important;
+}
+
+.mypage-slacko .element-5 {
+  align-items: center;
+  background-color: #ffffff1a;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 30px;
+  left: 64px;
+  padding: 20px;
+  position: absolute;
+  top: 197px;
+  width: 794px;
+}
+
+.mypage-slacko .img {
+  height: 57px;
+  position: relative;
+  width: 80px;
+}
+
+.mypage-slacko .pngwing-com-2 {
+  height: 8px;
+  object-fit: cover;
+  position: relative;
+  width: 20px;
+}
+
+.mypage-slacko .design-component-instance-node {
+  background-image: url(../../../static/img/brands-slack-16.svg) !important;
+  position: relative !important;
+}
+
+.mypage-slacko .text-wrapper-13 {
+  color: var(--x-1);
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.20px;
+  line-height: 27px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.mypage-slacko .view-wrapper {
+  height: 340px;
+  left: 274px;
+  position: absolute;
+  top: 0;
+  width: 373px;
+}
+
+.mypage-slacko .view-7 {
+  height: 314px;
+  left: 8px;
+  position: relative;
+  top: 4px;
+  width: 358px;
+}
+
+.mypage-slacko .group-wrapper {
+  background-color: var(--foundation-bluelight-active);
+  border: 1.26px solid;
+  border-color: #e7e7f0;
+  border-radius: 1260px;
+  height: 88px;
+  left: 167px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 88px;
+}
+
+.mypage-slacko .group-3 {
+  height: 84px;
+  left: 25px;
+  position: relative;
+  top: 16px;
+  width: 39px;
+}
+
+.mypage-slacko .ellipse-4 {
+  background-color: var(--foundation-bluelight-hover);
+  border-radius: 19.53px / 26.46px;
+  height: 53px;
+  left: 0;
+  position: absolute;
+  top: 32px;
+  width: 39px;
+}
+
+.mypage-slacko .ellipse-5 {
+  background-color: var(--foundation-bluelight-hover);
+  border-radius: 12.6px;
+  height: 25px;
+  left: 8px;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.mypage-slacko .div-2 {
+  height: 126px;
+  left: 0;
+  position: absolute;
+  top: 114px;
+  width: 360px;
+}
+
+.mypage-slacko .text-wrapper-14 {
+  color: var(--grayscale-40);
+  font-family: var(--medium-12-font-family);
+  font-size: var(--medium-12-font-size);
+  font-style: var(--medium-12-font-style);
+  font-weight: var(--medium-12-font-weight);
+  left: 95px;
+  letter-spacing: var(--medium-12-letter-spacing);
+  line-height: var(--medium-12-line-height);
+  position: absolute;
+  top: 52px;
+  white-space: nowrap;
+}
+
+.mypage-slacko .view-8 {
+  height: 43px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 358px;
+}
+
+.mypage-slacko .group-4 {
+  height: 21px;
+  left: 0;
+  position: absolute;
+  top: 11px;
+  width: 41px;
+}
+
+.mypage-slacko .text-wrapper-15 {
+  color: var(--grayscale-5);
+  font-family: var(--medium-14-font-family);
+  font-size: var(--medium-14-font-size);
+  font-style: var(--medium-14-font-style);
+  font-weight: var(--medium-14-font-weight);
+  left: 0;
+  letter-spacing: var(--medium-14-letter-spacing);
+  line-height: var(--medium-14-line-height);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.mypage-slacko .text-filed {
+  background-color: var(--foundation-bluedarker);
+  border: 1px solid;
+  border-color: #b7bfff80;
+  border-radius: 100px;
+  height: 43px;
+  left: 74px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 284px;
+}
+
+.mypage-slacko .text-wrapper-16 {
+  color: var(--grayscale-5);
+  font-family: var(--medium-14-font-family);
+  font-size: var(--medium-14-font-size);
+  font-style: var(--medium-14-font-style);
+  font-weight: var(--medium-14-font-weight);
+  left: 20px;
+  letter-spacing: var(--medium-14-letter-spacing);
+  line-height: var(--medium-14-line-height);
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+}
+
+.mypage-slacko .view-9 {
+  height: 43px;
+  left: 0;
+  position: absolute;
+  top: 83px;
+  width: 360px;
+}
+
+.mypage-slacko .text-wrapper-17 {
+  color: var(--grayscale-5);
+  font-family: var(--medium-14-font-family);
+  font-size: var(--medium-14-font-size);
+  font-style: var(--medium-14-font-style);
+  font-weight: var(--medium-14-font-weight);
+  left: 0;
+  letter-spacing: var(--medium-14-letter-spacing);
+  line-height: var(--medium-14-line-height);
+  position: absolute;
+  top: 11px;
+  white-space: nowrap;
+}
+
+.mypage-slacko .text-wrapper-18 {
+  color: var(--grayscale-50);
+  font-family: var(--medium-14-font-family);
+  font-size: var(--medium-14-font-size);
+  font-style: var(--medium-14-font-style);
+  font-weight: var(--medium-14-font-weight);
+  left: 20px;
+  letter-spacing: var(--medium-14-letter-spacing);
+  line-height: var(--medium-14-line-height);
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+}
+
+.mypage-slacko .btn-2 {
+  left: 98px !important;
+  position: absolute !important;
+  top: 266px !important;
+}
+
+.mypage-slacko .image-2 {
+  height: 1080px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 300px;
+}
+
+.mypage-slacko .top {
+  height: 80px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1920px;
+}
