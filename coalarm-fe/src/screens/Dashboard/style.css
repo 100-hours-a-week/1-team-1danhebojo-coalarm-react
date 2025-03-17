@@ -76,7 +76,7 @@
   
   .sidebar-notice .vector {
     height: 1080px;
-    left: 65px;
+    left: 250px;
     position: absolute;
     top: 173px;
     width: 1030px;
@@ -97,7 +97,7 @@
     backdrop-filter: blur(300px) brightness(100%);
     background-color: #ffffff05;
     height: 1080px;
-    left: 37px;
+    left: 230px;
     position: absolute;
     top: 161px;
     width: 1920px;
@@ -219,8 +219,18 @@
     height: 318px;
     position: relative;
     width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: 10px;
   }
   
+  #tradingview_widget {
+    width: 100%;
+    height: 100%;
+  }
+
   .sidebar-notice .component-1611-instance {
     left: 1597px !important;
     position: absolute !important;
@@ -260,10 +270,10 @@
   .sidebar-notice .view-5 {
     background-color: var(--foundation-bluedark-hover);
     height: 40px;
-    left: 525px;
+    left: 367px;
     position: absolute;
     top: 253px;
-    width: 1620px;
+    width: 1920px;
   }
   
   .sidebar-notice .frame-20 {
@@ -300,7 +310,7 @@
     font-size: var(--medium-14-font-size);
     font-style: var(--medium-14-font-style);
     font-weight: var(--medium-14-font-weight);
-    left: 136px;
+    left: 436px;
     letter-spacing: var(--medium-14-letter-spacing);
     line-height: var(--medium-14-line-height);
     position: absolute;
@@ -310,7 +320,7 @@
   
   .sidebar-notice .user-interface-close-3 {
     height: 20px !important;
-    left: 1576px !important;
+    left: 1736px !important;
     position: absolute !important;
     top: 10px !important;
     width: 20px !important;

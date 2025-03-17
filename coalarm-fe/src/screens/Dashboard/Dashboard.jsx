@@ -7,9 +7,11 @@ import { Component1614 } from "../../components/Component1614";
 import { DivWrapper } from "../../components/DivWrapper";
 import { Macd } from "../../components/Macd";
 import { Rsi } from "../../components/Rsi";
+import { SidebarComponent } from "../../components/Sidebar/SideBarComponent";
 import { UserInterfaceCloseWrapper } from "../../components/UserInterfaceCloseWrapper";
 import { Property1Noti } from "../../icons/Property1Noti";
 import { UserInterfaceClose } from "../../icons/UserInterfaceClose";
+import { TradingViewWidget } from "../../components/TradingViewWidget/TradingViewWidget"; 
 import "./style.css";
 
 export const Dashboard = () => {
@@ -60,7 +62,10 @@ export const Dashboard = () => {
               <div className="text-wrapper-28">BTC/KRW</div>
             </div>
 
-            <div className="frame-19" />
+            <div className="frame-19">
+              {/* 여기에 TradingView 캔들차트 위젯 추가 */}
+              <TradingViewWidget />
+            </div>
           </div>
 
           <Component1611
@@ -73,11 +78,7 @@ export const Dashboard = () => {
             className="component-1614-instance"
             property1="variant-3"
           />
-          <img
-            className="image-2"
-            alt="Image"
-            src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d69a0eb2ec8455f2240cce/img/----.svg"
-          />
+          <SidebarComponent />
 
           <div className="view-5">
             <div className="frame-20">
@@ -102,12 +103,6 @@ export const Dashboard = () => {
               opacity="0.972549"
             />
           </div>
-
-          <img
-            className="top"
-            alt="Top"
-            src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d69a0eb2ec8455f2240cce/img/top.svg"
-          />
         </div>
       </div>
     </div>
