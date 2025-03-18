@@ -49,7 +49,7 @@ export const SidebarComponent = ({ onMenuItemClick, activeContent }) => {
             </li>
             <li 
               className="menu-item"
-              onClick={() => handleMenuClick('/profile')}
+              onClick={() => handleMenuClick('/mypage')}
             >
               <div className="menu-icon">📊</div>
               <span className="menu-text">프로필 설정</span>

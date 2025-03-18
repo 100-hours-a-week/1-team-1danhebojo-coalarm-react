@@ -1,7 +1,7 @@
 
 import PropTypes from "prop-types";
 import React from "react";
-import { PropertyDefaultWrapper } from "../../PropertyDefaultWrapper/PropertyDefaultWrapper";
+import { PropertyDefaultWrapper } from "../PropertyDefaultWrapper/PropertyDefaultWrapper";
 import { PropertyUnactiveWrapper } from "../PropertyUnactiveWrapper/PropertyUnactiveWrapper";
 import "./style.css";
 

@@ -3,9 +3,10 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Login } from "./screens/Login/Login";
 import { Discord } from "./screens/Discord/Discord";
 import { Dashboard } from "./screens/Dashboard/Dashboard";
-import { Guide } from "./screens/Guide/Guide";
-import { MypageSlacko } from "./screens/MypageSlacko/MypageSlacko";
 import { AlarmLoginx } from "./screens/AlarmLoginx/AlarmLoginx";
+import { MypageSlacko } from "./screens/MypageSlacko/MypageSlacko";
+import { Guide } from "./screens/Guide/Guide";
+
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,7 @@ const router = createBrowserRouter([
     path: "/alarm",
     element: <AlarmLoginx />,
   },
+
 ]);
 
 export const App = () => {

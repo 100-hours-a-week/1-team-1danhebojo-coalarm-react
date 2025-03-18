@@ -1,7 +1,9 @@
 import React from "react";
 import { Btn } from "../../components/Btn";
 import { PropertyMainWrapper } from "../../components/PropertyMainWrapper";
+import { SidebarComponent } from "../../components/Sidebar/SideBarComponent";
 import { SidebarIcon } from "../../components/SidebarIcon";
+import { Topbar } from "../../components/Topbar";
 import { ArrowsRightArrow } from "../../icons/ArrowsRightArrow";
 import { ArrowsRightArrow2 } from "../../icons/ArrowsRightArrow2";
 import "./style.css";
@@ -274,9 +276,8 @@ export const MypageSlacko = () => {
           </div>
         </div>
 
-        <img className="image-2" alt="Image" src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/----.svg" />
-
-        <img className="top" alt="Top" src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/top.svg" />
+        <SidebarComponent />
+        <Topbar />
       </div>
     </div>
   );

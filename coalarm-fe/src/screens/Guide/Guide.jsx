@@ -7,6 +7,7 @@ import { KimchiContent } from "../../components/GuideContent/Kimchi/KimchiConten
 import { ShortSellingContent } from "../../components/GuideContent/ShortSelling/ShortSellingContent";
 
 import "./style.css";
+import { Topbar } from "../../components/Topbar";
 
 export const Guide = () => {
   const location = useLocation();
@@ -42,10 +43,7 @@ export const Guide = () => {
 
   return (
     <div className="app-container">
-      <div className="top-bar">
-        <div className="top-bar-content">
-        </div>
-      </div>
+      <Topbar />
       <div className="main-container">
         <SidebarComponent 
           onMenuItemClick={handleMenuItemClick}

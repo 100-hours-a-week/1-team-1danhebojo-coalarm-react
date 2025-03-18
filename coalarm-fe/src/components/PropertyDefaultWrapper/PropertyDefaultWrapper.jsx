@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { ArrowsUpperArrow12 } from "../icons/ArrowsUpperArrow12";
-import { ArrowsUpperArrow23 } from "../icons/ArrowsUpperArrow23";
+import { ArrowsUpperArrow12 } from "../../icons/ArrowsUpperArrow12";
+import { ArrowsUpperArrow23 } from "../../icons/ArrowsUpperArrow23";
 import "./style.css";
 
 export const PropertyDefaultWrapper = ({ property1 }) => {
