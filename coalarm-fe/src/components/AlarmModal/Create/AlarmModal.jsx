@@ -90,7 +90,11 @@ const ToggleSwitch = ({ label, selectedToggle, setSelectedToggle }) => {
 // ✅ ToggleContent 컴포넌트 (선택된 토글에 따라 다른 내용 표시)
 const ToggleContent = ({ selectedToggle }) => {
   if (selectedToggle === "골든 크로스") {
-    return <p className="toggle-info">단기 이동평균선(7일)이 장기 이동평균선(20일)을 상향 돌파할 때 알림을 받습니다.</p>;
+    return (
+        <div className="alert-box">
+            <p className="toggle-info">단기 이동평균선(7일)이 장기 이동평균선(20일)을 상향 돌파할 때 알림을 받습니다.</p>
+        </div>
+    );
   } else if (selectedToggle === "급등 감지") {
     return (
       <div className="alert-box">

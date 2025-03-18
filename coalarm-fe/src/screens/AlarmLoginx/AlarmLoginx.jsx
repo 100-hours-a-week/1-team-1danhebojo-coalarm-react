@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AlarmModal } from "../../components/AlarmModal";
+import { AlarmModal } from "../../components/AlarmModal/Create/AlarmModal";
 import { Btn } from "../../components/Btn";
 import { Component1605 } from "../../components/Component1605";
 import { SidebarComponent } from "../../components/Sidebar/SideBarComponent";

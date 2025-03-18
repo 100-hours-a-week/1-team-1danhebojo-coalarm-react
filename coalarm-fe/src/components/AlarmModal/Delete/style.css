@@ -1,0 +1,90 @@
+/* 🔹 모달 오버레이 */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* 🔹 모달 컨테이너 */
+.modal-container {
+  width: 540px;
+  height: 353px;
+  background-color: #343A7D;
+  color: white;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  text-align: center;
+}
+
+/* 🔹 모달 제목 */
+.modal-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 🔹 모달 본문 */
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.warning-icon {
+  font-size: 32px;
+}
+
+/* 🔹 설명 텍스트 */
+.modal-description {
+  font-size: 20px;
+  color: #D3DAF1;
+  margin-top: 20px;
+}
+
+/* 🔹 버튼 컨테이너 */
+.modal-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+/* 🔹 네 버튼 */
+.btn-confirm {
+  width: 120px;
+  padding: 12px;
+  background-color: #212B7A;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-confirm:hover {
+  background-color: #1A2368;
+}
+
+/* 🔹 아니요 버튼 */
+.btn-cancel {
+  width: 120px;
+  padding: 12px;
+  background-color: #2D4BFF;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-cancel:hover {
+  background-color: #1B38CC;
+}
