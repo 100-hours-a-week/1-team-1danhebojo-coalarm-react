@@ -3,6 +3,7 @@ import "./style.css"; // 스타일 파일 불러오기
 
 export const AlarmModal = ({ isOpen, onClose }) => {
   const [selectedToggle, setSelectedToggle] = useState(null);
+  const [titleText, setTitleText] = useState(""); // ✅ 제목 입력값 상태 추가
 
   if (!isOpen) return null;
 
@@ -31,16 +32,18 @@ export const AlarmModal = ({ isOpen, onClose }) => {
 
         <div className="modal-divider"></div>
 
-        {/* 알람 제목 입력 */}
+       
         <div className="modal-section">
           <label className="modal-label">알람 제목</label>
           <textarea 
             placeholder="내용을 입력해 주세요."
             className="modal-textarea"
-            maxLength={50}
+            maxLength={49}
             rows={2}
+            value={titleText} 
+            onChange={(e) => setTitleText(e.target.value)} // 
           />
-          <p className="modal-description text-right">(0/50)</p>
+          <p className="modal-description text-right">({titleText.length}/50)</p> 
         </div>
 
         <div className="modal-divider"></div>
@@ -105,7 +108,6 @@ const ToggleContent = ({ selectedToggle }) => {
   } else if (selectedToggle === "지정가 설정") {
     return (
       <div className="alert-box">
-       
         <p className="alert-description">설정한 가격에 도달하면<br/> 알림을 받습니다.</p>
         <div className="price-input-container">
           <input type="text" className="price-input" placeholder="%" />
