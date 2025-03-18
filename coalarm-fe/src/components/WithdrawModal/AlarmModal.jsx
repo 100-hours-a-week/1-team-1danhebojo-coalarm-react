@@ -8,12 +8,12 @@ export const AlarmModal = ({ isOpen, onClose, onConfirm }) => {
     <div className="modal-overlay">
       <div className="modal-container">
        
-        <h2 className="modal-title">🗑️ 알람을 삭제하시겠어요?</h2>
+        <h2 className="modal-title">정말 코알람을 떠나시나요? 🐨</h2>
 
       
         <div className="modal-body">
           <span className="warning-icon">⚠</span>
-          <p className="modal-description">알람 삭제 시 데이터가 삭제되며 복구되지 않습니다.</p>
+          <p className="modal-description">회원 탈퇴 시 모든 알림과 데이터가 삭제되며 복구되지 않습니다.</p>
         </div>
 
        
