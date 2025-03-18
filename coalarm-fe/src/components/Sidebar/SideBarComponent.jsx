@@ -1,20 +1,26 @@
 import React, { useState } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 import "./style.css"
 
 export const SidebarComponent = ({ onMenuItemClick, activeContent }) => {
   const [isOpen, setIsOpen] = useState(true);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const toggleSubmenu = () => {
     setIsOpen(!isOpen);
   };
 
-  // onMenuItemClick이 함수인지 확인 후 호출하는 안전한 핸들러
-  const handleMenuClick = (content) => {
+  const handleSubmenuClick = (content) => {
+    navigate(`/guide?content=${content}`);
     if (typeof onMenuItemClick === 'function') {
       onMenuItemClick(content);
-    } else {
-      console.warn('onMenuItemClick is not a function. Please check props passed to SidebarComponent.');
     }
+  };
+
+  // 기본 메뉴 항목 클릭 시 처리 함수
+  const handleMenuClick = (path) => {
+    navigate(path);
   };
 
   return (
@@ -34,15 +40,24 @@ export const SidebarComponent = ({ onMenuItemClick, activeContent }) => {
         
         <nav className="menu">
           <ul>
-            <li className="menu-item">
+            <li 
+              className="menu-item" 
+              onClick={() => handleMenuClick('/dashboard')}
+            >
               <div className="menu-icon">🏠</div>
               <span className="menu-text">대시보드</span>
             </li>
-            <li className="menu-item">
+            <li 
+              className="menu-item"
+              onClick={() => handleMenuClick('/profile')}
+            >
               <div className="menu-icon">📊</div>
               <span className="menu-text">프로필 설정</span>
             </li>
-            <li className="menu-item active">
+            <li 
+              className="menu-item"
+              onClick={() => handleMenuClick('/alarm')}
+            >
               <div className="menu-icon">📖</div>
               <span className="menu-text">투자 설정</span>
             </li>
@@ -56,25 +71,25 @@ export const SidebarComponent = ({ onMenuItemClick, activeContent }) => {
                 <ul>
                   <li 
                     className={`submenu-item ${activeContent === 'rsi' ? 'active' : ''}`}
-                    onClick={() => handleMenuClick('rsi')}
+                    onClick={() => handleSubmenuClick('rsi')}
                   >
                     RSI
                   </li>
                   <li 
                     className={`submenu-item ${activeContent === 'macd' ? 'active' : ''}`}
-                    onClick={() => handleMenuClick('macd')}
+                    onClick={() => handleSubmenuClick('macd')}
                   >
                     MACD
                   </li>
                   <li 
                     className={`submenu-item ${activeContent === 'short-selling' ? 'active' : ''}`}
-                    onClick={() => handleMenuClick('short-selling')}
+                    onClick={() => handleSubmenuClick('short-selling')}
                   >
                     공매수/공매도 지수
                   </li>
                   <li 
                     className={`submenu-item ${activeContent === 'kimchi' ? 'active' : ''}`}
-                    onClick={() => handleMenuClick('kimchi')}
+                    onClick={() => handleSubmenuClick('kimchi')}
                   >
                     김치 프리미엄
                   </li>
@@ -85,11 +100,17 @@ export const SidebarComponent = ({ onMenuItemClick, activeContent }) => {
         </nav>
         
         <div className="sidebar-bottom">
-          <div className="menu-item">
+          <div 
+            className="menu-item"
+            onClick={() => handleMenuClick('/discord')}
+          >
             <div className="menu-icon">🔄</div>
             <span className="menu-text">디스코드 연동하기</span>
           </div>
-          <div className="menu-item">
+          <div 
+            className="menu-item"
+            onClick={() => handleMenuClick('/login')}
+          >
             <div className="menu-icon">🚪</div>
             <span className="menu-text">로그아웃</span>
           </div>
