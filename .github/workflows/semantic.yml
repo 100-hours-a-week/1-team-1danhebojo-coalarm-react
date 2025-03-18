@@ -15,10 +15,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref }}
+
       - uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
-      - run: npm install
-      - run: npx semantic-release
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: coalarm-fe  # 🔥 `coalarm-fe` 디렉토리에서 실행
+
+      - name: Run Semantic Release
+        run: npx semantic-release
+        working-directory: coalarm-fe  # 🔥 `coalarm-fe` 디렉토리에서 실행
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
