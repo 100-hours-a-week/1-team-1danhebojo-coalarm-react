@@ -1,0 +1,79 @@
+.property-unactive-wrapper {
+  overflow: hidden;
+}
+
+.property-unactive-wrapper .rectangle {
+  position: relative;
+}
+
+.property-unactive-wrapper.mini-unactive {
+  background-color: var(--foundation-bluedark-active);
+  border: 0.5px solid;
+  border-color: var(--foundation-bluelight-active);
+  border-radius: 50px;
+  height: 16px;
+  width: 30px;
+}
+
+.property-unactive-wrapper.unactive {
+  background-color: var(--foundation-bluedark-active);
+  border: 0.5px solid;
+  border-color: var(--foundation-bluelight-active);
+  border-radius: 100px;
+  height: 32px;
+  width: 60px;
+}
+
+.property-unactive-wrapper.active {
+  background-color: var(--foundation-bluelight-active);
+  border-radius: 100px;
+  height: 32px;
+  width: 60px;
+}
+
+.property-unactive-wrapper.mini-active {
+  background-color: var(--foundation-bluelight-active);
+  border-radius: 50px;
+  height: 16px;
+  width: 30px;
+}
+
+.property-unactive-wrapper.mini-unactive .rectangle {
+  background-color: var(--foundation-bluelight-active);
+  border-radius: 50px;
+  box-shadow: 0px -2px 4px #0000001a;
+  height: 12px;
+  left: 2px;
+  top: 2px;
+  width: 12px;
+}
+
+.property-unactive-wrapper.unactive .rectangle {
+  background-color: var(--foundation-bluelight-active);
+  border-radius: 100px;
+  box-shadow: 0px -2px 4px #0000001a;
+  height: 24px;
+  left: 4px;
+  top: 4px;
+  width: 24px;
+}
+
+.property-unactive-wrapper.active .rectangle {
+  background-color: var(--foundation-bluelight);
+  border-radius: 100px;
+  box-shadow: -2px 0px 4px #0000001a;
+  height: 24px;
+  left: 32px;
+  top: 4px;
+  width: 24px;
+}
+
+.property-unactive-wrapper.mini-active .rectangle {
+  background-color: var(--foundation-bluelight);
+  border-radius: 50px;
+  box-shadow: 0px 2px 4px #0000001a;
+  height: 12px;
+  left: 16px;
+  top: 2px;
+  width: 12px;
+}

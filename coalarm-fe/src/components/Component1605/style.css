@@ -1,0 +1,157 @@
+.component-1605 {
+  background-color: var(--foundation-bluedarker);
+  border-radius: 30px;
+  overflow: hidden;
+  width: 1172px;
+}
+
+.component-1605 .frame {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 31px;
+  width: 1107px;
+}
+
+.component-1605 .div {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  position: relative;
+}
+
+.component-1605 .text-wrapper-2 {
+  color: var(--grayscale-40);
+  font-family: var(--medium-12-font-family);
+  font-size: var(--medium-12-font-size);
+  font-style: var(--medium-12-font-style);
+  font-weight: var(--medium-12-font-weight);
+  letter-spacing: var(--medium-12-letter-spacing);
+  line-height: var(--medium-12-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.component-1605 .component-1604 {
+  position: relative !important;
+}
+
+.component-1605 .vector {
+  height: 2px;
+  left: 31px;
+  position: absolute;
+  top: 116px;
+  width: 1107px;
+}
+
+.component-1605 .chip {
+  align-items: center;
+  background-color: #2b347a;
+  border-radius: 100px;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 31px;
+  padding: 10px 16px;
+  position: absolute;
+  top: 133px;
+}
+
+.component-1605 .text-wrapper-3 {
+  color: var(--grayscale-5);
+  font-family: var(--medium-16-font-family);
+  font-size: var(--medium-16-font-size);
+  font-style: var(--medium-16-font-style);
+  font-weight: var(--medium-16-font-weight);
+  letter-spacing: var(--medium-16-letter-spacing);
+  line-height: var(--medium-16-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.component-1605 .div-wrapper {
+  align-items: center;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ), linear-gradient(0deg, rgba(43, 52, 122, 1) 0%, rgba(43, 52, 122, 1) 100%);
+  border: 1px solid;
+  border-color: var(--foundation-bluelight-active);
+  border-radius: 100px;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 170px;
+  padding: 10px 16px;
+  position: absolute;
+  top: 133px;
+}
+
+.component-1605.hover-active {
+  height: 124px;
+}
+
+.component-1605.default-unactive {
+  height: 124px;
+}
+
+.component-1605.click-active {
+  height: 124px;
+}
+
+.component-1605.hover-unactive {
+  height: 124px;
+}
+
+.component-1605.default-active {
+  height: 124px;
+}
+
+.component-1605.click-unactive {
+  height: 124px;
+}
+
+.component-1605.list {
+  height: 200px;
+  position: relative;
+}
+
+.component-1605.hover-active .frame {
+  position: relative;
+  top: 33px;
+}
+
+.component-1605.default-unactive .frame {
+  position: relative;
+  top: 33px;
+}
+
+.component-1605.click-active .frame {
+  position: relative;
+  top: 33px;
+}
+
+.component-1605.hover-unactive .frame {
+  position: relative;
+  top: 33px;
+}
+
+.component-1605.default-active .frame {
+  position: relative;
+  top: 33px;
+}
+
+.component-1605.click-unactive .frame {
+  position: relative;
+  top: 32px;
+}
+
+.component-1605.list .frame {
+  position: absolute;
+  top: 33px;
+}

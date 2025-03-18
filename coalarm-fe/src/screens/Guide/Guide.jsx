@@ -9,15 +9,11 @@ import { ShortSellingContent } from "../../components/GuideContent/ShortSelling/
 import "./style.css";
 
 export const Guide = () => {
-  // URL 쿼리 파라미터 읽기
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
-  const contentParam = queryParams.get('content');
+  const contentParam = queryParams.get("content");
+  const [activeContent, setActiveContent] = useState(contentParam || "rsi");
 
-  // 상태 초기화 - URL 쿼리 파라미터가 있으면 해당 값으로, 없으면 'rsi'로 설정
-  const [activeContent, setActiveContent] = useState(contentParam || 'rsi');
-
-  // URL 쿼리 파라미터가 변경될 때 activeContent 업데이트
   useEffect(() => {
     if (contentParam) {
       setActiveContent(contentParam);
@@ -25,19 +21,19 @@ export const Guide = () => {
   }, [contentParam]);
 
   const handleMenuItemClick = (content) => {
-    console.log('Menu item clicked:', content);
+    console.log("Menu item clicked:", content);
     setActiveContent(content);
   };
 
   const renderContent = () => {
     switch (activeContent) {
-      case 'rsi':
+      case "rsi":
         return <RSIContent />;
-      case 'macd':
+      case "macd":
         return <MACDContent />;
-      case 'kimchi':
+      case "kimchi":
         return <KimchiContent />;
-      case 'short-selling':
+      case "short-selling":
         return <ShortSellingContent />;
       default:
         return <RSIContent />;
@@ -48,16 +44,13 @@ export const Guide = () => {
     <div className="app-container">
       <div className="top-bar">
         <div className="top-bar-content">
-          
         </div>
       </div>
-      
       <div className="main-container">
         <SidebarComponent 
           onMenuItemClick={handleMenuItemClick}
           activeContent={activeContent}
         />
-        
         <div className="content-container">
           <div className="content-main">
             {renderContent()}

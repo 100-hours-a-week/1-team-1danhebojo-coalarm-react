@@ -1,0 +1,1 @@
+export { ContentJustify } from "./ContentJustify";

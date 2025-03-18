@@ -1,0 +1,234 @@
+.alarm-loginx {
+  background-color: #0a1672;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.alarm-loginx .div-2 {
+  background-color: var(--foundation-bluedark-active);
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.alarm-loginx .overlap {
+  height: 1527px;
+  left: -225px;
+  position: absolute;
+  top: -173px;
+  width: 2145px;
+}
+
+.alarm-loginx .BG-color {
+  height: 1412px;
+  left: 0;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  width: 1986px;
+}
+
+.alarm-loginx .overlap-group {
+  height: 938px;
+  left: 0;
+  position: absolute;
+  top: 474px;
+  width: 761px;
+}
+
+.alarm-loginx .ellipse {
+  background: linear-gradient(
+    234deg,
+    rgba(255, 215, 124, 0.3) 0%,
+    rgba(255, 215, 124, 0.06) 100%
+  );
+  border-radius: 336.5px / 291px;
+  height: 582px;
+  left: 88px;
+  position: absolute;
+  top: 356px;
+  width: 673px;
+}
+
+.alarm-loginx .ellipse-2 {
+  background: linear-gradient(
+    338deg,
+    rgba(54, 197, 240, 0.2) 0%,
+    rgba(31, 113, 138, 0.2) 100%
+  );
+  border-radius: 246.5px / 232px;
+  height: 464px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 493px;
+}
+
+.alarm-loginx .overlap-group-2 {
+  height: 1253px;
+  left: 892px;
+  position: absolute;
+  top: 0;
+  width: 1094px;
+}
+
+.alarm-loginx .img {
+  height: 1080px;
+  left: 65px;
+  position: absolute;
+  top: 173px;
+  width: 1030px;
+}
+
+.alarm-loginx .ellipse-3 {
+  background-color: #e01e5a66;
+  border-radius: 230px / 189.5px;
+  height: 379px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 460px;
+}
+
+.alarm-loginx .BG-blur {
+  -webkit-backdrop-filter: blur(150px) brightness(100%);
+  backdrop-filter: blur(150px) brightness(100%);
+  background-color: #ffffff05;
+  height: 1354px;
+  left: 225px;
+  position: absolute;
+  top: 173px;
+  width: 1920px;
+}
+
+.alarm-loginx .scroll {
+  height: 996px;
+  left: 526px;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  top: 256px;
+  width: 1618px;
+}
+
+.alarm-loginx .scroll::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.alarm-loginx .content {
+  height: 1524px;
+  left: -1px;
+  overflow-y: scroll;
+  position: relative;
+  top: -3px;
+  width: 1619px;
+}
+
+.alarm-loginx .content::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.alarm-loginx .view {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  left: 230px;
+  position: absolute;
+  top: 326px;
+  width: 1161px;
+}
+
+.alarm-loginx .frame-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 880px;
+  position: relative;
+  width: 100%;
+}
+
+.alarm-loginx .text-wrapper-4 {
+  color: var(--grayscale-5);
+  font-family: var(--semi-bold-18-font-family);
+  font-size: var(--semi-bold-18-font-size);
+  font-style: var(--semi-bold-18-font-style);
+  font-weight: var(--semi-bold-18-font-weight);
+  letter-spacing: var(--semi-bold-18-letter-spacing);
+  line-height: var(--semi-bold-18-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.alarm-loginx .view-2 {
+  align-items: center;
+  display: flex;
+  margin-right: -1.00px;
+  position: relative;
+  width: 104px;
+}
+
+.alarm-loginx .text-wrapper-5 {
+  color: var(--grayscale-5);
+  font-family: var(--medium-12-font-family);
+  font-size: var(--medium-12-font-size);
+  font-style: var(--medium-12-font-style);
+  font-weight: var(--medium-12-font-weight);
+  letter-spacing: var(--medium-12-letter-spacing);
+  line-height: var(--medium-12-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.alarm-loginx .arrows-down-arrow {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.alarm-loginx .vector-2 {
+  height: 1px;
+  margin-bottom: -1.00px;
+  margin-left: -1.50px;
+  margin-right: -1.50px;
+  object-fit: cover;
+  position: relative;
+  width: 1164px;
+}
+
+.alarm-loginx .btn-instance {
+  left: 1184px !important;
+  position: absolute !important;
+  top: 60px !important;
+}
+
+.alarm-loginx .component-1605-instance {
+  left: 220px !important;
+  position: absolute !important;
+  top: 148px !important;
+}
+
+.alarm-loginx .image {
+  height: 1080px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 300px;
+}
+
+.alarm-loginx .top {
+  height: 80px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1920px;
+}

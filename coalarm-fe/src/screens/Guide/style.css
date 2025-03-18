@@ -2,7 +2,15 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
-  background-color: #14184b;
+  background-color: #0a1672;
+}
+
+.div-2 {
+  background-color: var(--foundation-bluedark-active);
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
 }
 
 .app-container {
@@ -14,7 +22,8 @@ body {
 
 .top-bar {
   height: 80px;
-  background-color: #2a2f6e;
+  border-bottom: 1px solid gray;
+  background-color: transparent;
   position: fixed;
   width: 100%;
   top: 0;
@@ -40,13 +49,14 @@ body {
   display: flex;
   flex: 1;
   padding: 20px 20px 20px 280px;
-  background-color: #14184b;
+  background-color: var(--foundation-bluedark-active);
   overflow-y: auto;
 }
 
 .content-main {
   flex: 1;
   margin-right: 20px;
+  padding-top: 100px;
 }
 
 .content-sidebar {
@@ -122,4 +132,52 @@ body {
   color: rgba(255, 255, 255, 0.7);
   margin-left: 26px;
   line-height: 1.6;
+}
+
+
+.top {
+  height: 80px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1920px;
+}
+
+.ellipse {
+  background: linear-gradient(
+    234deg,
+    rgba(255, 215, 124, 0.3) 0%,
+    rgba(255, 215, 124, 0.06) 100%
+  );
+  border-radius: 336.5px / 291px;
+  height: 582px;
+  left: 88px;
+  position: absolute;
+  top: 356px;
+  width: 673px;
+}
+
+.ellipse-2 {
+  background: linear-gradient(
+    338deg,
+    rgba(54, 197, 240, 0.2) 0%,
+    rgba(31, 113, 138, 0.2) 100%
+  );
+  border-radius: 246.5px / 232px;
+  height: 464px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 493px;
+}
+
+.BG-blur {
+  -webkit-backdrop-filter: blur(150px) brightness(100%);
+  backdrop-filter: blur(150px) brightness(100%);
+  background-color: #ffffff05;
+  height: 1354px;
+  left: 225px;
+  position: absolute;
+  top: 173px;
+  width: 1920px;
 }

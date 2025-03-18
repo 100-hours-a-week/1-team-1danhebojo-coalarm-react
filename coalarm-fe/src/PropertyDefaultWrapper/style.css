@@ -1,0 +1,55 @@
+.property-default-wrapper {
+  border: 1px solid;
+  border-color: #b7bfff4c;
+  border-radius: 20px;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+  width: 176px;
+}
+
+.property-default-wrapper .text-wrapper {
+  color: var(--grayscale-5);
+  font-family: var(--medium-16-font-family);
+  font-size: var(--medium-16-font-size);
+  font-style: var(--medium-16-font-style);
+  font-weight: var(--medium-16-font-weight);
+  left: 22px;
+  letter-spacing: var(--medium-16-letter-spacing);
+  line-height: var(--medium-16-line-height);
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+}
+
+.property-default-wrapper .arrows-upper-arrow {
+  height: 24px !important;
+  left: 132px !important;
+  position: absolute !important;
+  top: 18px !important;
+  width: 24px !important;
+}
+
+.property-default-wrapper.list-close {
+  background-color: #2b347a;
+}
+
+.property-default-wrapper.default {
+  background-color: #2b347a;
+}
+
+.property-default-wrapper.hover {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ), linear-gradient(0deg, rgba(43, 52, 122, 1) 0%, rgba(43, 52, 122, 1) 100%);
+}
+
+.property-default-wrapper.click {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ), linear-gradient(0deg, rgba(43, 52, 122, 1) 0%, rgba(43, 52, 122, 1) 100%);
+}
