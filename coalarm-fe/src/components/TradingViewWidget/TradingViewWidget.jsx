@@ -35,7 +35,7 @@ export const TradingViewWidget = () => {
           wickUpColor: "#26a69a",
           wickDownColor: "#ef5350",
           volumeUnderChart: true, // 차트 하단에 거래량 표시
-          style: "2", // 1 = 캔들 차트 스타일
+          style: "1", // 1 = 캔들 차트 스타일
           locale: "kr",
           toolbar_bg: "#1e222d",
           enable_publishing: false,

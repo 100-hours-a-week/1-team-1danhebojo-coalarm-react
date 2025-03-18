@@ -11,6 +11,8 @@ import "./style.css";
 export const MypageSlacko = () => {
   return (
     <div className="mypage-slacko">
+      <SidebarComponent />
+      <Topbar />
       <div className="div">
         <div className="overlap">
           <div className="BG-color">
@@ -134,10 +136,10 @@ export const MypageSlacko = () => {
 
                 <div className="view-6">
                   <div className="element-4">
-                    <img
+                  <img
                       className="image"
                       alt="Image"
-                      src="/img/image-71.png"
+                      src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/image-71@2x.png"
                     />
 
                     <div className="frame-4">
@@ -147,22 +149,22 @@ export const MypageSlacko = () => {
 
                           <div className="frame-6">
                             <div className="frame-7">
-                              <img
+                             <img
                                 className="pngwing-com"
                                 alt="Pngwing com"
-                                src="/img/pngwing-com-6-1.png"
+                                src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/pngwing-com-6-1@2x.png"
                               />
 
                               <img
                                 className="pngwing-com"
                                 alt="Pngwing com"
-                                src="/img/pngwing-com-6-1.png"
+                                src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/pngwing-com-6-1@2x.png"
                               />
 
                               <img
                                 className="pngwing-com"
                                 alt="Pngwing com"
-                                src="/img/pngwing-com-6-1.png"
+                                src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/pngwing-com-6-1@2x.png"
                               />
                             </div>
 
@@ -180,8 +182,11 @@ export const MypageSlacko = () => {
                   </div>
 
                   <div className="element-5">
-                    <img className="img" alt="Image" src="/img/image-71.png" />
-
+                    <img
+                      className="image"
+                      alt="Image"
+                      src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/image-71@2x.png"
+                    />
                     <div className="frame-4">
                       <div className="frame-wrapper">
                         <div className="frame-5">
@@ -189,22 +194,22 @@ export const MypageSlacko = () => {
 
                           <div className="frame-6">
                             <div className="frame-7">
-                              <img
-                                className="pngwing-com-2"
+                            <img
+                                className="pngwing-com"
                                 alt="Pngwing com"
-                                src="/img/pngwing-com-6-1-1.png"
+                                src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/pngwing-com-6-1@2x.png"
                               />
 
                               <img
-                                className="pngwing-com-2"
+                                className="pngwing-com"
                                 alt="Pngwing com"
-                                src="/img/pngwing-com-6-1-1.png"
+                                src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/pngwing-com-6-1@2x.png"
                               />
 
                               <img
-                                className="pngwing-com-2"
+                                className="pngwing-com"
                                 alt="Pngwing com"
-                                src="/img/pngwing-com-6-1-1.png"
+                                src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/pngwing-com-6-1@2x.png"
                               />
                             </div>
 
@@ -275,9 +280,6 @@ export const MypageSlacko = () => {
             </div>
           </div>
         </div>
-
-        <SidebarComponent />
-        <Topbar />
       </div>
     </div>
   );
