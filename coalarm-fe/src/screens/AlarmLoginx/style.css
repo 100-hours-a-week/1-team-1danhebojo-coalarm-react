@@ -211,6 +211,10 @@
   top: 60px !important;
 }
 
+.alarm-loginx .btn-instance:hover {
+  cursor: pointer;
+}
+
 .alarm-loginx .component-1605-instance {
   left: 220px !important;
   position: absolute !important;

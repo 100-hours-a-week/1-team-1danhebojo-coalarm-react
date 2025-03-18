@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { AlarmModal } from "../../components/AlarmModal";
 import { Btn } from "../../components/Btn";
 import { Component1605 } from "../../components/Component1605";
 import { SidebarComponent } from "../../components/Sidebar/SideBarComponent";
@@ -6,6 +7,7 @@ import { ArrowsDownArrow } from "../../icons/ArrowsDownArrow";
 import "./style.css";
 
 export const AlarmLoginx = () => {
+  const [modalOpen, setModalOpen] = useState(false);
   return (
     <div className="alarm-loginx">
       <div className="div-2">
@@ -52,10 +54,14 @@ export const AlarmLoginx = () => {
               </div>
 
               <Btn
+                onClick={() => { 
+                  setModalOpen(true);
+                }}
                 className="btn-instance"
                 property1="main"
                 text="알림 설정하기"
               />
+              <AlarmModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
               <Component1605
                 className="component-1605-instance"
                 property1="default-active"
