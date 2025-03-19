@@ -1,0 +1,18 @@
+.top-bar {
+    height: 80px;
+    border-bottom: 1px solid gray;
+    background-color: #0a1672;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 90;
+  }
+  
+  .top-bar-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 270px;
+    font-size: 14px;
+    font-weight: 500;
+  }

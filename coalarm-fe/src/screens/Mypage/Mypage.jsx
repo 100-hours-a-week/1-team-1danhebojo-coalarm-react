@@ -1,14 +1,43 @@
-import React from "react";
+import React, {useState} from "react";
 import { Btn } from "../../components/Btn";
 import { PropertyMainWrapper } from "../../components/PropertyMainWrapper";
+import { SidebarComponent } from "../../components/Sidebar/SideBarComponent";
 import { SidebarIcon } from "../../components/SidebarIcon";
+import { Topbar } from "../../components/Topbar";
 import { ArrowsRightArrow } from "../../icons/ArrowsRightArrow";
 import { ArrowsRightArrow2 } from "../../icons/ArrowsRightArrow2";
 import "./style.css";
 
-export const MypageSlacko = () => {
+export const Mypage = () => {
+  const [nickname, setNickname] = useState("아름다운 코알라"); // 닉네임 상태
+  const [email, setEmail] = useState("kakao@naver.com"); // 닉네임 상태
+  const [profileImage, setProfileImage] = useState(null); // 프로필 이미지 상태
+
+  // ✅ 프로필 업데이트 핸들러
+  const handleProfileUpdate = async () => {
+    const formData = new FormData();
+    formData.append("nickname", nickname);
+    if (profileImage) {
+      formData.append("profile_image", profileImage);
+    }
+
+    try {
+      const response = await axios.patch("/user", formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      });
+      console.log("업데이트 성공:", response.data);
+      alert("프로필이 성공적으로 수정되었습니다!");
+    } catch (error) {
+      console.error("업데이트 실패:", error);
+      alert("프로필 수정 중 오류가 발생했습니다.");
+    }
+  };
   return (
     <div className="mypage-slacko">
+      <SidebarComponent />
+      <Topbar />
       <div className="div">
         <div className="overlap">
           <div className="BG-color">
@@ -132,10 +161,10 @@ export const MypageSlacko = () => {
 
                 <div className="view-6">
                   <div className="element-4">
-                    <img
+                  <img
                       className="image"
                       alt="Image"
-                      src="/img/image-71.png"
+                      src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/image-71@2x.png"
                     />
 
                     <div className="frame-4">
@@ -145,22 +174,22 @@ export const MypageSlacko = () => {
 
                           <div className="frame-6">
                             <div className="frame-7">
-                              <img
+                             <img
                                 className="pngwing-com"
                                 alt="Pngwing com"
-                                src="/img/pngwing-com-6-1.png"
+                                src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/pngwing-com-6-1@2x.png"
                               />
 
                               <img
                                 className="pngwing-com"
                                 alt="Pngwing com"
-                                src="/img/pngwing-com-6-1.png"
+                                src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/pngwing-com-6-1@2x.png"
                               />
 
                               <img
                                 className="pngwing-com"
                                 alt="Pngwing com"
-                                src="/img/pngwing-com-6-1.png"
+                                src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/pngwing-com-6-1@2x.png"
                               />
                             </div>
 
@@ -178,8 +207,11 @@ export const MypageSlacko = () => {
                   </div>
 
                   <div className="element-5">
-                    <img className="img" alt="Image" src="/img/image-71.png" />
-
+                    <img
+                      className="image"
+                      alt="Image"
+                      src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/image-71@2x.png"
+                    />
                     <div className="frame-4">
                       <div className="frame-wrapper">
                         <div className="frame-5">
@@ -187,22 +219,22 @@ export const MypageSlacko = () => {
 
                           <div className="frame-6">
                             <div className="frame-7">
-                              <img
-                                className="pngwing-com-2"
+                            <img
+                                className="pngwing-com"
                                 alt="Pngwing com"
-                                src="/img/pngwing-com-6-1-1.png"
+                                src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/pngwing-com-6-1@2x.png"
                               />
 
                               <img
-                                className="pngwing-com-2"
+                                className="pngwing-com"
                                 alt="Pngwing com"
-                                src="/img/pngwing-com-6-1-1.png"
+                                src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/pngwing-com-6-1@2x.png"
                               />
 
                               <img
-                                className="pngwing-com-2"
+                                className="pngwing-com"
                                 alt="Pngwing com"
-                                src="/img/pngwing-com-6-1-1.png"
+                                src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/pngwing-com-6-1@2x.png"
                               />
                             </div>
 
@@ -250,15 +282,16 @@ export const MypageSlacko = () => {
                       </div>
 
                       <div className="text-filed">
-                        <div className="text-wrapper-16">아름다운 코알라</div>
+                        <div className="text-wrapper-16">{nickname}</div>
                       </div>
                     </div>
+                 
 
                     <div className="view-9">
                       <div className="text-wrapper-17">이메일</div>
 
                       <div className="text-filed">
-                        <div className="text-wrapper-18">example@naver.com</div>
+                        <div className="text-wrapper-18">{email}</div>
                       </div>
                     </div>
                   </div>
@@ -267,16 +300,13 @@ export const MypageSlacko = () => {
                     className="btn-2"
                     property1="main"
                     text="프로필 수정하기"
+                    onClick={handleProfileUpdate}
                   />
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <img className="image-2" alt="Image" src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/----.svg" />
-
-        <img className="top" alt="Top" src="https://cdn.animaapp.com/projects/67d3c8e9db9fdc9c9e2480c4/releases/67d6a61a0913c8d0d25d7af0/img/top.svg" />
       </div>
     </div>
   );
