@@ -3,8 +3,10 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Login } from "./screens/Login/Login";
 import { Discord } from "./screens/Discord/Discord";
 import { Dashboard } from "./screens/Dashboard/Dashboard";
+import { AlarmLoginx } from "./screens/AlarmLoginx/AlarmLoginx";
+import { Mypage } from "./screens/Mypage/Mypage";
 import { Guide } from "./screens/Guide/Guide";
-import {MypageSlacko} from "./screens/MypageSlacko/MypageSlacko";
+
 
 const router = createBrowserRouter([
   {
@@ -29,8 +31,13 @@ const router = createBrowserRouter([
   },
   {
     path: "/mypage",
-    element: <MypageSlacko />,
+    element: <Mypage />,
   },
+  {
+    path: "/alarm",
+    element: <AlarmLoginx />,
+  },
+
 ]);
 
 export const App = () => {

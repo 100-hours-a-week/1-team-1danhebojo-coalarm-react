@@ -1,15 +1,10 @@
-/*
-We're constantly improving the code you see. 
-Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
-*/
-
 import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
 
-export const Btn = ({ property1, className, text = "TEXT" }) => {
+export const Btn = ({ property1, className, text = "TEXT", onClick }) => {
   return (
-    <button className={`btn ${property1} ${className}`}>
+    <button className={`btn ${property1} ${className}`} onClick={onClick}>
       <div className="TEXT">{text}</div>
     </button>
   );
@@ -18,4 +13,5 @@ export const Btn = ({ property1, className, text = "TEXT" }) => {
 Btn.propTypes = {
   property1: PropTypes.oneOf(["main", "sub"]),
   text: PropTypes.string,
+  onClick: PropTypes.func, // onClick 프롭 추가
 };
