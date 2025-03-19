@@ -653,6 +653,10 @@
   width: 88px;
 }
 
+.mypage-slacko .group-wrapper:hover {
+    cursor: pointer;
+}
+
 .mypage-slacko .group-3 {
   height: 84px;
   left: 25px;

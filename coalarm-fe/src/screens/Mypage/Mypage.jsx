@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Btn } from "../../components/Btn";
 import { PropertyMainWrapper } from "../../components/PropertyMainWrapper";
 import { SidebarComponent } from "../../components/Sidebar/SideBarComponent";
@@ -8,7 +8,32 @@ import { ArrowsRightArrow } from "../../icons/ArrowsRightArrow";
 import { ArrowsRightArrow2 } from "../../icons/ArrowsRightArrow2";
 import "./style.css";
 
-export const MypageSlacko = () => {
+export const Mypage = () => {
+  const [nickname, setNickname] = useState("아름다운 코알라"); // 닉네임 상태
+  const [email, setEmail] = useState("kakao@naver.com"); // 닉네임 상태
+  const [profileImage, setProfileImage] = useState(null); // 프로필 이미지 상태
+
+  // ✅ 프로필 업데이트 핸들러
+  const handleProfileUpdate = async () => {
+    const formData = new FormData();
+    formData.append("nickname", nickname);
+    if (profileImage) {
+      formData.append("profile_image", profileImage);
+    }
+
+    try {
+      const response = await axios.patch("/user", formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      });
+      console.log("업데이트 성공:", response.data);
+      alert("프로필이 성공적으로 수정되었습니다!");
+    } catch (error) {
+      console.error("업데이트 실패:", error);
+      alert("프로필 수정 중 오류가 발생했습니다.");
+    }
+  };
   return (
     <div className="mypage-slacko">
       <SidebarComponent />
@@ -257,15 +282,16 @@ export const MypageSlacko = () => {
                       </div>
 
                       <div className="text-filed">
-                        <div className="text-wrapper-16">아름다운 코알라</div>
+                        <div className="text-wrapper-16">{nickname}</div>
                       </div>
                     </div>
+                 
 
                     <div className="view-9">
                       <div className="text-wrapper-17">이메일</div>
 
                       <div className="text-filed">
-                        <div className="text-wrapper-18">example@naver.com</div>
+                        <div className="text-wrapper-18">{email}</div>
                       </div>
                     </div>
                   </div>
@@ -274,6 +300,7 @@ export const MypageSlacko = () => {
                     className="btn-2"
                     property1="main"
                     text="프로필 수정하기"
+                    onClick={handleProfileUpdate}
                   />
                 </div>
               </div>

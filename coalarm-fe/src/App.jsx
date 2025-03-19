@@ -4,7 +4,7 @@ import { Login } from "./screens/Login/Login";
 import { Discord } from "./screens/Discord/Discord";
 import { Dashboard } from "./screens/Dashboard/Dashboard";
 import { AlarmLoginx } from "./screens/AlarmLoginx/AlarmLoginx";
-import { MypageSlacko } from "./screens/MypageSlacko/MypageSlacko";
+import { Mypage } from "./screens/Mypage/Mypage";
 import { Guide } from "./screens/Guide/Guide";
 
 
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/mypage",
-    element: <MypageSlacko />,
+    element: <Mypage />,
   },
   {
     path: "/alarm",
